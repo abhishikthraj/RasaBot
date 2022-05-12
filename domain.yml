@@ -1,0 +1,57 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - about_college
+
+responses:
+  utter_greet:
+  - text: "Hey There!\n Hello! What can I help you with today?"
+    buttons:
+    - payload: Can you tell something about IARE?
+      title: About IARE
+    - payload: Admission Enquiry
+      title: Admission Enquiry
+    - payload: Admissions
+      title: Admission Procedure
+    - payload: Hostel
+      title: Hostel Facilities
+    - payload: What are the programs offered at IARE?
+      title: Programs Offered
+    - payload: How to contact IARE?
+      title: Contact Details
+    - payload: Why join IARE?
+      title: Why IARE?
+  
+  utter_about_college:
+    - text: "Institute of Aeronautical Engineering (IARE), Hyderabad was established in the year 2000 and is run by Maruthi Educational Society founded by a devoted group of eminent professional and industrialists having a long and outstanding experience in educational system with a mission ‘Education for Liberation’."
+  utter_video:
+    - attachment: { "type":"video", "payload":{ "src": "https://www.youtube.com/embed/E5NxNk_TUOw" } }
+      
+      text: "Hi"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Abhishikth."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
