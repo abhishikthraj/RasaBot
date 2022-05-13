@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,9 +15,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
+    - HI
+    - ih
 - intent: about_college
-  examples: | 
+  examples: |
     - About IARE
     - About College
     - About Institute Of Aeronautical Engineering
@@ -30,7 +30,6 @@ nlu:
     - In which year was IARE started?
     - Fullform of IARE
     - Institute Of Aeronautical Engineering details
-
 - intent: foundation
   examples: |
     - When was IARE established?
@@ -41,7 +40,6 @@ nlu:
     - Founded in
     - College foundation year
     - foundation
-
 - intent: address
   examples: |
     - Where is the college located?
@@ -51,7 +49,6 @@ nlu:
     - Address of iare
     - address
     - postal address of institute of aeronautical engineering
-
 - intent: student_strength
   examples: |
     - Strength of college
@@ -62,7 +59,6 @@ nlu:
     - student to faculty ratio in institute of aeronautical engineering
     - student strength
     - strength of faculty
-
 - intent: affiliation
   examples: |
     - Iare is affiliated to which university?
@@ -70,7 +66,6 @@ nlu:
     - IARE affiliation status
     - Affiliating University
     - affiliation
-
 - intent: autonomous
   examples: |
     - Is IARE autonomous?
@@ -79,14 +74,13 @@ nlu:
     - UGC autonomous
     - Is this college autonomous?
     - autonomous
-
+    - autonomous status
 - intent: accreditation
   examples: |
     - IARE accreditation status
     - iare is accredited by whom?
     - accreditation
     - college accreditation
-
 - intent: ranking
   examples: |
     - What is the rank of the college?
@@ -94,18 +88,22 @@ nlu:
     - NIRF rank of institute of aeronautical engineering
     - ranking of Iare
     - how good is iare
-
+- intent: programs
+  examples: |
+    - What are the programs offered?
+    - what are the departments available?
+    - Branches in Engineering
+    - offered programs
+    - programs
 - intent: why_iare
   examples: |
-    - mobile number
-    - email
     - about iare college
     - college advantages
     - Reasons to join IARE
     - Why should I join Iare?
     - Institute of Aeronautical Engineering college specifications
     - college specs
-
+    - why iare?
 - intent: goodbye
   examples: |
     - cu
@@ -118,8 +116,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
-
 - intent: affirm
   examples: |
     - yes
@@ -128,7 +124,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -138,7 +133,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -155,7 +149,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -172,10 +165,3 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
