@@ -27,7 +27,7 @@ responses:
       title: About IARE
     - payload: Admission Enquiry
       title: Admission Enquiry
-    - payload: /admission
+    - payload: Admissions
       title: Admission Procedure
     - payload: Hostel
       title: Hostel Facilities
@@ -38,8 +38,8 @@ responses:
     - payload: Why join IARE?
       title: Why IARE?
   utter_about_college:
-  - text: |
-      Institute of Aeronautical Engineering (IARE), Hyderabad was established in the year 2000 and is run by Maruthi Educational Society founded by a devoted group of eminent professional and industrialists having a long and outstanding experience in educational system with a mission ‘Education for Liberation’.
+  - text: |-
+      Institute of Aeronautical Engineering (IARE), Hyderabad was established in the year 2000 and is run by Maruthi Educational Society founded by a devoted group of eminent professional and industrialists having a long and outstanding experience in educational system with a mission ‘Education for Liberation’.\n
       For more details please choose by clicking one of the buttons below
     buttons:
     - payload: /foundation
@@ -75,18 +75,11 @@ responses:
   utter_programs:
   - text: IARE is a prestigious  Autonomous engineering college offering eleven B.Tech programs Computer Science and Engineering, Computer Science and Engineering (Artificial Intelligence and Machine Learning), Computer Science and Engineering (Data Science), Computer Science and Engineering (Cyber Security), Computer Science and Information Technology, Information Technology, Electronics and Communication Engineering, Electrical and Electronics Engineering, Aeronautical Engineering, Mechanical Engineering, Civil Engineering and six M.Tech programs in engineering and MBA (Master of Business Administration) with 21 years of rich standing in the educational sphere.
   utter_accreditation:
-  - text: |
-      "1. National Board of Accreditation (NBA) : The seven B.Tech, two M.Tech and MBA programs are accredited by National Board of Accreditation (NBA), New Delhi. 
-       2. National Assessment and Accreditation Council (NAAC) : The College has been accredited with a CGPA of 3.05 on a four point scale at 'A' Grade by National Assessment and Accreditation Council (NAAC) for a period of Five years from 15 November, 2015."
+  - text: "1. National Board of Accreditation (NBA) : The seven B.Tech, two M.Tech and MBA programs are accredited by National Board of Accreditation (NBA), New Delhi. 2. National Assessment and Accreditation Council (NAAC) : The College has been accredited with a CGPA of 3.05 on a four point scale at 'A' Grade by National Assessment and Accreditation Council (NAAC) for a period of Five years from 15 November, 2015."
   utter_ranking:
   - text: Institute of Aeronautical Engineering (IARE) is ranked 159 in Engineering category as per National Institutional Ranking Framework (NIRF) - 2021, Ministry of Education (MoE), Govt. of India. It is a matter of great pride that the institute is ranked one among the 200 best engineering colleges in the country.
   utter_why_iare:
-  - text: |
-      1. GREAT STUDENT EXPERIENCE 
-      2. GO ON A SEMESTER-LONG WORK PLACEMENT | INTERNSHIP 
-      3. TAUGHT BY TOP RESEARCHERS 
-      4. EXCELLENT JOB PROSPECTS 
-      5. HIGHLY RANKED
+  - text: '1: GREAT STUDENT EXPERIENCE 2: GO ON A SEMESTER-LONG WORK PLACEMENT | INTERNSHIP 3: TAUGHT BY TOP RESEARCHERS 4: EXCELLENT JOB PROSPECTS 5: HIGHLY RANKED'
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg

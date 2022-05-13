@@ -59,7 +59,6 @@ nlu:
     - student to faculty ratio in institute of aeronautical engineering
     - student strength
     - strength of faculty
-    - what is the strength of students in the college
 - intent: affiliation
   examples: |
     - Iare is affiliated to which university?
@@ -67,7 +66,6 @@ nlu:
     - IARE affiliation status
     - Affiliating University
     - affiliation
-    - to which university is this college affiliated to?
 - intent: autonomous
   examples: |
     - Is IARE autonomous?
@@ -77,7 +75,6 @@ nlu:
     - Is this college autonomous?
     - autonomous
     - autonomous status
-    - is the college autonomous
 - intent: accreditation
   examples: |
     - IARE accreditation status
@@ -91,7 +88,6 @@ nlu:
     - NIRF rank of institute of aeronautical engineering
     - ranking of Iare
     - how good is iare
-    - rank
 - intent: programs
   examples: |
     - What are the programs offered?
@@ -99,7 +95,6 @@ nlu:
     - Branches in Engineering
     - offered programs
     - programs
-    - programs available
 - intent: why_iare
   examples: |
     - about iare college
@@ -109,11 +104,6 @@ nlu:
     - Institute of Aeronautical Engineering college specifications
     - college specs
     - why iare?
-    - whyviare
-- intent: admission_enquiry
-  examples: |
-    - how to join IARE?
-    - admission enquiry
 - intent: goodbye
   examples: |
     - cu

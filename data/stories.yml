@@ -99,7 +99,7 @@ stories:
   - intent: why_iare
   - action: utter_why_iare
 
-- story: random_story_1
+- story: interactive_story_1
   steps:
   - intent: greet
   - action: utter_greet
@@ -122,7 +122,7 @@ stories:
   - intent: why_iare
   - action: utter_why_iare
 
-- story: random_story_2
+- story: interactive_story_1
   steps:
   - intent: greet
   - action: utter_greet
@@ -136,32 +136,5 @@ stories:
   - action: utter_ranking
   - intent: programs
   - action: utter_programs
-  - intent: why_iare
-  - action: utter_why_iare
-
-- story: random_story_3
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: about_college
-  - action: utter_about_college
-  - intent: foundation
-  - action: utter_foundation
-  - intent: address
-  - action: utter_address
-  - intent: student_strength
-  - action: utter_student_strength
-  - intent: affiliation
-  - action: utter_affiliation
-  - intent: autonomous
-  - action: utter_autonomous
-  - intent: programs
-  - action: utter_programs
-  - intent: accreditation
-  - action: utter_accreditation
-  - intent: ranking
-  - action: utter_ranking
-  - intent: why_iare
-  - action: utter_why_iare
   - intent: why_iare
   - action: utter_why_iare
