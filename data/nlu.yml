@@ -88,6 +88,7 @@ nlu:
     - NIRF rank of institute of aeronautical engineering
     - ranking of Iare
     - how good is iare
+    - rank
 - intent: programs
   examples: |
     - What are the programs offered?
@@ -95,6 +96,14 @@ nlu:
     - Branches in Engineering
     - offered programs
     - programs
+- intent: contact
+  examples: |
+    - How can I contact you?
+    - Can I call you?
+    - Contact
+    - can I have your number?
+    - phone number
+    - Can I email you?
 - intent: why_iare
   examples: |
     - about iare college
@@ -104,6 +113,7 @@ nlu:
     - Institute of Aeronautical Engineering college specifications
     - college specs
     - why iare?
+    - why iare
 - intent: goodbye
   examples: |
     - cu

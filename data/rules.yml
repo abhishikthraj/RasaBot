@@ -2,6 +2,51 @@ version: "3.1"
 
 rules:
 
+- rule: about college foundation
+  steps:
+  - intent: foundation
+  - action: utter_foundation
+
+- rule: about college address
+  steps:
+  - intent: address
+  - action: utter_address
+
+- rule: about college student strength
+  steps:
+  - intent: student_strength
+  - action: utter_student_strength
+
+- rule: about college affiliation
+  steps:
+  - intent: affiliation
+  - action: utter_affiliation
+
+- rule: about college autonomous
+  steps:
+  - intent: autonomous
+  - action: utter_autonomous
+
+- rule: about college accreditation
+  steps:
+  - intent: accreditation
+  - action: utter_accreditation
+
+- rule: about college ranking
+  steps:
+  - intent: ranking
+  - action: utter_ranking
+
+- rule: about college programs
+  steps:
+  - intent: programs
+  - action: utter_programs
+
+- rule: about college why iare
+  steps:
+  - intent: why_iare
+  - action: utter_why_iare
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
