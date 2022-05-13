@@ -1,0 +1,181 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: about_college
+  examples: | 
+    - About IARE
+    - About College
+    - About Institute Of Aeronautical Engineering
+    - Can you tell me about IARE?
+    - aboutiare
+    - about iar
+    - When was IARE established?
+    - what is the mission of IARE?
+    - In which year was IARE started?
+    - Fullform of IARE
+    - Institute Of Aeronautical Engineering details
+
+- intent: foundation
+  examples: |
+    - When was IARE established?
+    - Foundation of IARE
+    - In which year was IARE started?
+    - Who runs institute of aeronautical engineering?
+    - Which trust runs Institute Of Aeronautical Engineering?
+    - Founded in
+    - College foundation year
+    - foundation
+
+- intent: address
+  examples: |
+    - Where is the college located?
+    - Where is IARE?
+    - Location of Iare
+    - Route to Institute of Aeronautical Engineering
+    - Address of iare
+    - address
+    - postal address of institute of aeronautical engineering
+
+- intent: student_strength
+  examples: |
+    - Strength of college
+    - number of students in Iare
+    - what is the strength of the college?
+    - number of faculty in IARE
+    - student to faculty ratio
+    - student to faculty ratio in institute of aeronautical engineering
+    - student strength
+    - strength of faculty
+
+- intent: affiliation
+  examples: |
+    - Iare is affiliated to which university?
+    - Institute Of Aeronautical Engineering affiliation
+    - IARE affiliation status
+    - Affiliating University
+    - affiliation
+
+- intent: autonomous
+  examples: |
+    - Is IARE autonomous?
+    - Iare's UGC Autonomous status
+    - Institute Of Aeronautical Engineering autonomous
+    - UGC autonomous
+    - Is this college autonomous?
+    - autonomous
+
+- intent: accreditation
+  examples: |
+    - IARE accreditation status
+    - iare is accredited by whom?
+    - accreditation
+    - college accreditation
+
+- intent: ranking
+  examples: |
+    - What is the rank of the college?
+    - rating of IARE
+    - NIRF rank of institute of aeronautical engineering
+    - ranking of Iare
+    - how good is iare
+
+- intent: why_iare
+  examples: |
+    - mobile number
+    - email
+    - about iare college
+    - college advantages
+    - Reasons to join IARE
+    - Why should I join Iare?
+    - Institute of Aeronautical Engineering college specifications
+    - college specs
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

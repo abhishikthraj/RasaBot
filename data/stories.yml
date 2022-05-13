@@ -15,4 +15,75 @@ stories:
   - action: utter_greet
   - intent: about_college
   - action: utter_about_college
-  - action: utter_video
+
+- story: about college foundation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: foundation
+  - action: utter_foundation
+
+- story: about college address
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: address
+  - action: utter_address
+
+- story: about college student strength
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: student_strength
+  - action: utter_student_strength
+
+- story: about college affiliation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: affiliation
+  - action: utter_affiliation
+
+- story: about college autonomous
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: autonomous
+  - action: utter_autonomous
+
+- story: about college accreditation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: accreditation
+  - action: utter_accreditation
+
+- story: about college ranking
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: ranking
+  - action: utter_ranking
+
+- story: about college why iare
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_college
+  - action: utter_about_college
+  - intent: why_iare
+  - action: utter_why_iare
