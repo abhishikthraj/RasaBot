@@ -18,17 +18,48 @@ intents:
 - student_strength
 - contact
 - why_iare
+- admissions
+- btech_admissions
+- mtech_admissions
+- mba_admissions
+- btech_counselling
+- btech_management
+- btech_diploma
+- mba_counselling
+- mba_management
+actions:
+- utter_about_college
+- utter_accreditation
+- utter_address
+- utter_affiliation
+- utter_autonomous
+- utter_foundation
+- utter_goodbye
+- utter_greet
+- utter_programs
+- utter_ranking
+- utter_student_strength
+- utter_contact
+- utter_why_iare
+- utter_admissions
+- utter_btech_admissions
+- utter_btech_counselling
+- utter_btech_management
+- utter_btech_diploma
+- utter_mtech_admissions
+- utter_mba_admissions
+- utter_mba_counselling
+- utter_mba_management
 responses:
   utter_greet:
   - text: |-
-      Hey There!
-       Hello! What can I help you with today?
+      Hello! What can I help you with today?
     buttons:
     - payload: /about_college
       title: About IARE
     - payload: Admission Enquiry
       title: Admission Enquiry
-    - payload: Admissions
+    - payload: /admissions
       title: Admission Procedure
     - payload: Hostel
       title: Hostel Facilities
@@ -93,13 +124,49 @@ responses:
        3: TAUGHT BY TOP RESEARCHERS 
        4: EXCELLENT JOB PROSPECTS 
        5: HIGHLY RANKED'
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
+  utter_admissions:
+  - text: There are various programs offered by Institute Of Aeronautical Engineering for which there is different admission procedure for each of them. 
+    buttons:
+    - payload: /btech_admissions
+      title: B.Tech Admissions
+    - payload: /mtech_admissions
+      title: M.Tech Admissions
+    - payload: /mba_admissions
+      title: MBA Admissions
+  utter_btech_admissions:
+  - text: The minimum qualification for admission to first year of the B.Tech course is a pass in the Intermediate (10 + 2) conducted by the board of Intermediate education, Govt. of Telangana or any other examination recognized as equivalent thereto with Mathematics, Physics and Chemistry as optional subjects.
+    buttons:
+    - payload: /btech_counselling
+      title: B.Tech Counselling Procedure
+    - payload: /btech_management
+      title: B.Tech Management/NRI Seats
+    - payload: /btech_diploma
+      title: B.Tech Diploma holder Admission
+  utter_btech_counselling:
+  - text: 70 % of the seats are allotted based on the merit in the Engineering and Medical Common Entrance Test (EAMCET) conducted by Govt. of Telangana.
+  utter_btech_management:
+  - text: 30 % of the seats are earmarked for Management / NRI candidates.
+  utter_btech_diploma:
+  - text: Diploma holders are admitted in second year of B.Tech to the extent of 20% of intake   based on the merit in the Engineering Common Entrance Test (ECET), under lateral entry scheme conducted by Govt. of Telangana.
+  utter_mtech_admissions:
+  - text: |
+        1. M.Tech - Aerospace Engineering: B.E / B.Tech in Aeronautical Engineering / Mechanical Engineering with valid GATE score / based on the rank obtained in the test conducted by JNTU.
+        2. M.Tech - Computer Science & Engineering: B.E / B.Tech in Computer Science and Engineering with valid GATE score / based on the rank obtained in the test conducted by JNTU.
+        3. M.Tech - Embedded Systems: B.E / B.Tech in Electronics and Communications Engineering / Electrical and Electronics Engineering / Computer Science and Engineering / Information Technology / Electronics and Instrumentation Engineering with valid GATE score / based on the rank obtained in the Test conducted by JNTU.
+        4. M.Tech - Electrical Power Systems: B.E / B.Tech in Electrical and Electronics Engineering with valid GATE score / based on the rank obtained in the test conducted by JNTU.
+        5. M.Tech - Computer Aided Design / Computer Aided Manufacturing (CAD/CAM): B.E / B.Tech in Mechanical Engineering with valid GATE score / based on the rank obtained in the test conducted by JNTU.
+        6. M.Tech - Structural Engineering: B.E / B.Tech in Civil Engineering / Construction Engineering with valid GATE score / based on the rank obtained in the test conducted by JNTU.
+  utter_mba_admissions:
+  - text: The minimum qualification for admission to first year of the MBA is a pass in undergraduate course (10 + 2 + 3).
+    buttons:
+    - payload: /mba_counselling
+      title: MBA Counselling Procedure
+    - payload: /mba_management
+      title: MBA Management Seats
+  utter_mba_counselling:
+  - text: 70% of the seats are allotted based on the merit in the Integrated Common Entrance  Test (ICET) conducted by Govt. of Telangana.
+  utter_mba_management:
+  - text: 30% of the seats are earmarked for Management / NRI candidates.
   utter_goodbye:
   - text: Bye
   utter_iamabot:
@@ -107,17 +174,3 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-actions:
-- utter_about_college
-- utter_accreditation
-- utter_address
-- utter_affiliation
-- utter_autonomous
-- utter_foundation
-- utter_goodbye
-- utter_greet
-- utter_programs
-- utter_ranking
-- utter_student_strength
-- utter_contact
-- utter_why_iare

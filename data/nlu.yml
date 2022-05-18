@@ -112,8 +112,159 @@ nlu:
     - Why should I join Iare?
     - Institute of Aeronautical Engineering college specifications
     - college specs
+    - what is so good about iArE?
     - why iare?
     - why iare
+- intent: admissions
+  examples: |
+    - what is the admission procedure?
+    - admission procedure at iare
+    - How to join in IARE?
+    - Institute of Aeronautuical Engineering admission process
+    - Join IARE
+    - get a seat in Iare
+    - Study at IARE
+    - Engineering admissions in this college
+    - B.Tech Admissions
+    - admissions
+    - Admission Procedure
+    - Admissions process
+    - M.Tech Admissions
+    - MBA Admissions
+    - B Tech Admissions
+    - M Tech Admissions
+    - Study in Ece at iare
+    - CSE branch admissions
+    - IT branch Admissions
+    - Study Mechanical Engineering at IaRE
+    - Admission procedure for Aeronautical Engineering
+    - Civil Engineering admissions
+    - CSE
+    - ECE
+    - IT
+    - Civil
+    - Aero
+    - Mech
+    - CE
+    - AE
+    - ME
+    - Computer Science Engineering admissions
+    - Electronics and Communication Engineering department admission
+    - How to get a seat in Information Technology department
+    - Computer Science Engineering
+    - Electronics and Communication Engineering
+    - Information Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - Aeronautical Engineering
+- intent: btech_admissions
+  examples: |
+    - B Tech Admissions
+    - B.Tech admission procedure
+    - Study in Ece at iare
+    - CSE branch admissions
+    - IT branch Admissions
+    - Study Mechanical Engineering at IaRE
+    - Admission procedure for Aeronautical Engineering
+    - Civil Engineering admissions
+    - CSE
+    - ECE
+    - IT
+    - Civil
+    - Aero
+    - Mech
+    - CE
+    - AE
+    - ME
+    - Computer Science Engineering admissions
+    - Electronics and Communication Engineering department admission at Institute of Aeronautical Engineering
+    - How to get a seat in Information Technology department
+    - Computer Science Engineering
+    - Electronics and Communication Engineering
+    - Information Technology
+    - Civil Engineering
+    - Mechanical Engineering
+    - Aeronautical Engineering
+    - Engineering admissions in this college
+    - Engineering and Medical Common Entrance Test (EAMCET)
+- intent: mtech_admissions
+  examples: |
+    - M Tech Admissions
+    - M.Tech admission procedure
+    - Aerospace Engineering
+    - Computer Science & Engineering
+    - Embedded Systems
+    - Electrical Power Systems
+    - Computer Aided Design / Computer Aided Manufacturing (CAD/CAM)
+    - Structural Engineering
+    - how to join in aerospace engineering at iare?
+    - how do I get a seat in Computer Science Engineering department at Institute of Aeronautical Engineering
+    - Get an MTech admission
+    - Enroll for M Tech at iare
+    - cse
+    - cad
+    - CAM
+- intent: mba_admissions
+  examples: |
+    - Get an MBA seat in IARE
+    - How to enroll for an MBA course at Institute Of Aeronautical Engineering
+    - Admission procedure to join an MBA
+    - admission process for joining mba at iare
+    - Study Mba
+    - Get a seat to study MBA in IARe
+- intent: btech_counselling
+  examples: |
+    - BTech seat allotment through counselling
+    - counselling seat
+    - seat obtained through EAMCET
+    - EAMCET admission
+    - how many counselling seats are available?
+    - Admission through rank obtained in EAMCET
+    - B.tech Counselling procedure
+    - counselling process for btech
+    - seat through entrance exam
+    - Engineering and Medical Common Entrance Test (EAMCET)
+- intent: btech_management
+  examples: |
+    - admission through management quota
+    - management seat
+    - admissions without entrance exam
+    - Paid seat
+    - how to join Iare without EAMCET
+    - Btech NRI admission
+    - Engineering Management seat allotment
+    - Btech management admission
+- intent: btech_diploma
+  examples: |
+    - Admission into engineering for diploma students
+    - Lateral entry admissions
+    - join Iare with ECET counselling
+    - admit into second year for diploma students
+    - Admission process for Diploma students
+    - Engineering Btech seat with Ecet
+    - Engineering Common Entrance Test (ECET)
+- intent: mba_counselling
+  examples: |
+    - MBA seat allotment through counselling
+    - counselling seat
+    - seat obtained through ICET
+    - ICET admission
+    - how many counselling seats are available?
+    - Admission through rank obtained in ICET
+    - MBA Counselling procedure
+    - counselling process for mba
+    - seat through entrance exam 
+    - Integrated Common Entrance Test (ICET)
+- intent: mba_management
+  examples: |
+    - admission through management quota
+    - management seat
+    - admissions without entrance exam
+    - Paid seat for mba
+    - how to join Iare without ICET
+    - Mba NRI admission
+    - mba Management seat allotment
+    - MBA management admission
 - intent: goodbye
   examples: |
     - cu
@@ -143,35 +294,3 @@ nlu:
     - don't like that
     - no way
     - not really
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad

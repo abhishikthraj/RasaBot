@@ -2,13 +2,6 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
 - story: about college
   steps:
   - intent: greet
@@ -97,3 +90,73 @@ stories:
   - intent: why_iare
   - action: utter_why_iare
 
+- story: admissions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+
+- story: btech admissions counselling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: btech_admissions
+  - action: utter_btech_admissions
+  - intent: btech_counselling
+  - action: utter_btech_counselling
+
+- story: btech admissions management
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: btech_admissions
+  - action: utter_btech_admissions
+  - intent: btech_management
+  - action: utter_btech_management
+
+- story: btech admissions diploma
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: btech_admissions
+  - action: utter_btech_admissions
+  - intent: btech_diploma
+  - action: utter_btech_diploma
+
+- story: mtech admissions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: mtech_admissions
+  - action: utter_mtech_admissions
+
+- story: mba admissions counselling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: mba_admissions
+  - action: utter_mba_admissions
+  - intent: mba_counselling
+  - action: utter_mba_counselling
+
+- story: mba admissions management
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admissions
+  - action: utter_admissions
+  - intent: mba_admissions
+  - action: utter_mba_admissions
+  - intent: mba_management
+  - action: utter_mba_management
