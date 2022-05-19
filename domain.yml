@@ -27,6 +27,11 @@ intents:
 - btech_diploma
 - mba_counselling
 - mba_management
+- hostel
+- hostel_features
+- all_programs
+- contact_us
+- why_study_at_iare
 actions:
 - utter_about_college
 - utter_accreditation
@@ -50,6 +55,11 @@ actions:
 - utter_mba_admissions
 - utter_mba_counselling
 - utter_mba_management
+- utter_hostel
+- utter_hostel_features
+- utter_all_programs
+- utter_contact_us
+- utter_why_study_at_iare
 responses:
   utter_greet:
   - text: |-
@@ -61,18 +71,18 @@ responses:
       title: Admission Enquiry
     - payload: /admissions
       title: Admission Procedure
-    - payload: Hostel
+    - payload: /hostel
       title: Hostel Facilities
     - payload: What are the programs offered at IARE?
       title: Programs Offered
     - payload: How to contact IARE?
       title: Contact Details
-    - payload: Why join IARE?
-      title: Why IARE?
+    - payload: /why_study_at_iare
+      title: Why study at IARE?
   utter_about_college:
   - text: |-
-      Institute of Aeronautical Engineering (IARE), Hyderabad was established in the year 2000 and is run by Maruthi Educational Society founded by a devoted group of eminent professional and industrialists having a long and outstanding experience in educational system with a mission ‘Education for Liberation’.\n
-      For more details please choose by clicking one of the buttons below
+      "Institute of Aeronautical Engineering (IARE), Hyderabad was established in the year 2000 and is run by Maruthi Educational Society founded by a devoted group of eminent professional and industrialists having a long and outstanding experience in educational system with a mission ‘Education for Liberation’.\n
+      For more details please choose by clicking one of the buttons below"
     buttons:
     - payload: /foundation
       title: Foundation
@@ -167,6 +177,65 @@ responses:
   - text: 70% of the seats are allotted based on the merit in the Integrated Common Entrance  Test (ICET) conducted by Govt. of Telangana.
   utter_mba_management:
   - text: 30% of the seats are earmarked for Management / NRI candidates.
+  utter_hostel:
+  - text: IARE has a home away from home for those students who come from various other states and city outskirts providing them the best amenities to make them feel at home. The students develop a sense of responsibility and learn to manage their life independently staying in hostels. They also develop qualities such as solidarity and comradeship having gained rich experience living in the hostels.
+    buttons:
+    - payload: /hostel_features
+      title: More details about hostel facilities
+  utter_hostel_features:
+  - text: |
+      1. Spacious well ventilated rooms accommodating two in each room.
+      2. Separate hostels for boys and girls.
+      3. Well-furnished dining rooms accommodating more than 350 students at a time.
+      4. Hygienic food made under the strict supervision of hostel authorities.
+      5. Mineral water facility.
+      6. Outdoor and indoor games facility.
+      7. Wi-Fi facility available round the clock.
+      8. Fully secured and comfortable housing facility to all the inmates.
+      9. Ragging free environment.
+      10. Reading rooms.
+      11. Free transportation to the institute.
+      12. Personal care and regular counselling.
+      13. Health care and regular visits of registered physicians.
+      14. Once in a week outing facility.
+  utter_all_programs:
+  - text: |
+      "1: B.Tech Programs:
+        1. Computer Science and Engineering
+        2. Artificial Intelligence and Machine Learning
+        3. Data Science
+        4. Cyber Security
+        5. Computer Science and Information Technology
+        6. Information Technology
+        7. Aeronautical Engineering
+        8. Electronics and Communication Engineering
+        9. Electrical and Electronics Engineering
+        10. Mechanical Engineering
+        11. Civil Engineering\n"
+      "2: M.Tech Programs:
+        1. Aerospace Engineering
+        2. Computer Science and Engineering
+        3. Embedded Systems
+        4. Electrical Power Systems
+        5. CAD/CAM
+        6. Structural Engineering\n"
+      "3: Master of Business Administration"
+  utter_contact_us:
+  - text: |
+      "Phone: 8886234501, 8886234502,
+       040-29705852, 29705853, 29705854
+       Email:support@iare.ac.in"
+  utter_why_study_at_iare:
+  - text: |
+      1: LEADERSHIP IN ONE OF INDIA\'S FASTEST GROWING REGIONS
+      2: OUR STUDENTS SIT AT THE HEART OF EVERYTHING WE DO
+      3: RESEARCH HAS GLOBAL IMPACT
+      4: REPUTATION FOR EXCELLENCE
+      5: PARTNERS IN LEARNING
+      6: CURRICULUM PREPARES YOU FOR TODAY\'S WORLD
+      7: GLOBALLY FOCUSED AND CONNECTED
+      8: ACHIEVEMENT OF OUTSTANDING AWARDS
+      9: INTERNATIONAL COLLABORATION
   utter_goodbye:
   - text: Bye
   utter_iamabot:

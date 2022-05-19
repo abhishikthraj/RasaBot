@@ -265,6 +265,59 @@ nlu:
     - Mba NRI admission
     - mba Management seat allotment
     - MBA management admission
+- intent: hostel
+  examples: |
+    - how are the hostel facilities at iare?
+    - hostel
+    - hostel facilities
+    - availability of hostel facilities
+    - hostel for students
+    - hostel room availabiliy
+    - hostel availability for students
+    - hostel in IAre
+- intent: hostel_features
+  examples: |
+    - more about hostel
+    - more details about hostel
+    - hostel features
+    - Hostel and dining sailent features
+    - about hostel
+    - sports facilities at hostel
+    - food quality at hostel
+- intent: all_programs
+  examples: |
+    - What are the programs available?
+    - what departments are there in Iare?
+    - streams available
+    - Branch options available in Institute of Aeronautical Engineering
+    - What are the programs offered?
+    - what are the departments available?
+    - Branches in Engineering
+    - offered programs
+    - programs
+- intent: contact_us
+  examples: |
+    - How can I contact you?
+    - Can I call you?
+    - Contact
+    - can I have your number?
+    - phone number
+    - Can I email you?
+    - how to know more details about college
+    - contact us
+    - speak to help desk
+    - help desk
+- intent: why_study_at_iare
+  examples: |
+    - about iare college
+    - college advantages
+    - Reasons to join IARE
+    - Why should I join Iare?
+    - Institute of Aeronautical Engineering college specifications
+    - college specs
+    - what is so good about iArE?
+    - why iare?
+    - why study at iare
 - intent: goodbye
   examples: |
     - cu
@@ -294,3 +347,13 @@ nlu:
     - don't like that
     - no way
     - not really
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?

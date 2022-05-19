@@ -160,3 +160,35 @@ stories:
   - action: utter_mba_admissions
   - intent: mba_management
   - action: utter_mba_management
+
+- story: hostel facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel
+  - action: utter_hostel
+
+- story: hostel features
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel
+  - action: utter_hostel
+  - intent: hostel_features
+  - action: utter_hostel_features
+
+
+
+- story: contact us
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact_us
+  - action: utter_contact_us
+
+- story: why study at iare
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_study_at_iare
+  - action: utter_why_study_at_iare
